@@ -1,0 +1,19 @@
+#########################Output_1#########################
+Enter string 1: Eren
+Enter string 2: Yeager
+Equals (case-sensitive): false
+Equals (case-insensitive): false
+Concatenated: ErenYeager
+Copy of str1: Eren
+
+Process finished with exit code 0
+
+#########################Output_2#########################
+Enter string 1: hello
+Enter string 2: HeLlO
+Equals (case-sensitive): false
+Equals (case-insensitive): true
+Concatenated: helloHeLlO
+Copy of str1: hello
+
+Process finished with exit code 0
