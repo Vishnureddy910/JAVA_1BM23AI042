@@ -1,0 +1,30 @@
+
+How many membership do you want to enter?2
+
+Entering details for member1:
+Enter name:A
+Age:19
+Enter membership duration in months:8
+Is the membership inactive?(true/false):false
+
+Membership Details:
+Name:A
+Age:19
+Inactive status:No
+Duration:8 months
+Fee:$400
+
+Entering details for member2:
+Enter name:B
+Age:20
+Enter membership duration in months:12
+Is the membership inactive?(true/false):true
+
+Membership Details:
+Name:B
+Age:20
+Inactive status:Yes
+Duration:12 months
+Fee:$600
+
+Process finished with exit code 0
