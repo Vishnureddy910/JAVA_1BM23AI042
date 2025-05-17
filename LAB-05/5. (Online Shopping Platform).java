@@ -28,15 +28,21 @@ public class OnlineShoppingManager {
         for (int i = 0; i < inventory.size(); i++) {
             if (inventory.get(i).name.equalsIgnoreCase(name)) {
                 inventory.remove(i);
-                break;
+                System.out.println(name + " has been removed from the inventory.");
+                return;
             }
         }
+        System.out.println(name + " not found in the inventory.");
     }
 
     public void displayInventory() {
         System.out.println("Inventory:");
-        for (Product product : inventory) {
-            System.out.println("Name: " + product.name + ", Price: " + product.price + ", Category: " + product.category);
+        if (inventory.isEmpty()) {
+            System.out.println("No products available.");
+        } else {
+            for (Product product : inventory) {
+                System.out.println("Name: " + product.name + ", Price: " + product.price + ", Category: " + product.category);
+            }
         }
     }
 
@@ -52,3 +58,4 @@ public class OnlineShoppingManager {
         manager.displayInventory();
     }
 }
+
