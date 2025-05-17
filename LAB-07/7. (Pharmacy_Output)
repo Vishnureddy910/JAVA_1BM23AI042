@@ -1,0 +1,19 @@
+Inventory:
+1 | Crocin | Quantity: 100 | Price: 2.5
+2 | Calpol | Quantity: 50 | Price: 3.0
+3 | Crickmol | Quantity: 200 | Price: 1.0
+
+Inventory:
+1 | Crocin | Quantity: 90 | Price: 2.0
+2 | Calpol | Quantity: 50 | Price: 3.0
+3 | Crickmol | Quantity: 200 | Price: 1.0
+
+Searching for item with ID 2:
+Item found: Calpol
+
+Inventory:
+1 | Crocin | Quantity: 90 | Price: 2.0
+3 | Crickmol | Quantity: 200 | Price: 1.0
+
+
+Process finished with exit code 0
