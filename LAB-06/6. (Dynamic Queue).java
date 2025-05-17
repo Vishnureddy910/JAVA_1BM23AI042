@@ -42,17 +42,13 @@ public class GQueue<T> {
 
     public static void main(String[] args) {
         GQueue<Integer> integerQueue = new GQueue<>();
-
         integerQueue.enqueue(10);
         integerQueue.enqueue(20);
         integerQueue.enqueue(30);
-
         System.out.println("Elements in the queue are:");
         integerQueue.display();
-
         Integer dequeuedElement = integerQueue.dequeue();
         System.out.println("Dequeued element: " + dequeuedElement);
-
         System.out.println("Queue size: " + integerQueue.getSize());
     }
 }
