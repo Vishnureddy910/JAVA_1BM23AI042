@@ -1,0 +1,13 @@
+Inventory:
+Name: Laptop, Price: 40000.0, Category: Electronics
+Name: T-shirt, Price: 550.0, Category: Clothing
+Name: Book, Price: 920.0, Category: Books
+Book has been removed from the inventory.
+Inventory:
+Name: Laptop, Price: 40000.0, Category: Electronics
+Name: T-shirt, Price: 550.0, Category: Clothing
+Laptop has been removed from the inventory.
+Inventory:
+Name: T-shirt, Price: 550.0, Category: Clothing
+
+Process finished with exit code 0
