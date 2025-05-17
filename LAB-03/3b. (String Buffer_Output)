@@ -1,0 +1,8 @@
+Capacity of string buffer object sb1: 16
+Capacity of string buffer object sb2: 21
+Enter a string: thgil
+Reversed string in uppercase: LIGHT
+Enter a string to append: Yagami
+String after appending: LIGHTYagami
+
+Process finished with exit code 0
