@@ -1,0 +1,12 @@
+Enter exam scores for each student:
+Enter score for student 1: 90
+Enter score for student 2: 85
+Enter score for student 3: 99
+Enter score for student 4: 82
+Enter score for student 5: 89
+
+Exam score statistics:
+Sum of all scores: 445
+Highest score attained: 99
+
+Process finished with exit code 0
